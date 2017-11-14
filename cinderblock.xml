@@ -13,7 +13,7 @@
 	<supports os="macosx" />
 	<copyExclude>samples</copyExclude>
 	<!-- <sourcePattern>lib/HoaLibrary-Light/sources/*.hpp</sourcePattern> -->
-	<headerPattern>lib/HoaLibrary-Light/sources/*.hpp</headerPattern>
+	<headerPattern>include/*.h, lib/HoaLibrary-Light/sources/*.hpp</headerPattern>
 	<header>include/HoaNode.h</header>
 	<source>src/HoaNode.cpp</source>
 	<header>include/HoaElement.h</header>
